@@ -6,7 +6,7 @@ FRONTEND - MIDDLE_END - BACKEND
 => We try to prepare an API Gateway that acts as a middle end.
 
 // Example of a situation where we need a API Gateway
-# Suppose we have a lot of requests that are bombarded from a IP then, it is not the task of the microservice to apply RATE_LIMITTING. The microservice has its own task which it is intented for. So it is best to have a API_Gateway to service as a middleEnd between Frontend and Backend.
+ Suppose we have a lot of requests that are bombarded from a IP then, it is not the task of the microservice to apply RATE_LIMITTING. The microservice has its own task which it is intented for. So it is best to have a API_Gateway to service as a middleEnd between Frontend and Backend.
 
-# LoadBalancer task isto just re-route the incoming request to the application server. So eventually LoadBalancer will not have all this rateLimitting logic. So it just re-route the request to corresponding API_Gateways.
+ LoadBalancer task isto just re-route the incoming request to the application server. So eventually LoadBalancer will not have all this rateLimitting logic. So it just re-route the request to corresponding API_Gateways.
 
